@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad</title>
+    <!--CONEXION A LOS ESTILOS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--LOGO DE LA PAGINA EN FAVICON-->
+    <link rel="shortcut icon" href="./img/tree.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!--CONTENEDOR O CAJA-->
+    <div class="calendar">
+        <div id="cuentaRegresiva"><p>Dame un momento</p></div>
+        
+        <div class="fechas">
+            <div class="numeros">
+                <div class="numero" id="di"><p>00</p></div>
+                <div class="numero" id="hr"><p>00</p></div>
+                <div class="numero" id="mi"><p>00</p></div>
+                <div class="numero" id="se"><p>00</p></div>
+            </div>
+            <div class="letras">
+                <div class="letra"><p>D</p></div>
+                <div class="letra"><p>H</p></div>
+                <div class="letra"><p>M</p></div>
+                <div class="letra"><p>S</p></div>
+            </div>
+        </div>
+        <div class="boton">
+            <div class="play" id="play"><p>Play</p></div>
+            <div class="pause" id="pause"><p>Pause</p></div>
+        </div>
+    </div>
+    
+    <!--IMAGEN DE PAPA NOEL-->
+    <div class="papaNoel" id="papaNoel"></div>
+    <!--CONEXION PARA LA FUNCIONALIDAD DE LA PAGINA-->
+    <script src="./script.js"></script>
+</body>
+</html>
